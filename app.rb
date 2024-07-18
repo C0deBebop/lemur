@@ -17,10 +17,12 @@ class LemurApp < Sinatra::Base
 
   get '/ticket-tracker/add/project' do
      #get project
+     erb :'ticket_tracker/add-project'
   end
   
   post '/ticket-tracker/add/project' do
     #add project
+    
   end
 
   post '/requirement/:item_id' do

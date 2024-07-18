@@ -1,0 +1,87 @@
+
+<header>
+    <div id="logo">
+            <h1>Lemur</h1>
+    </div>
+    <nav>
+        <ul>
+        <li><a href=""><img src="/images/ticket-tracker.png" alt="ticket tracker image for ticker tracker page"></a></li>
+        <li><a href=""><img src="/images/progress-tracker.png" alt="progress tracker image for progress tracker page"></a></li>
+        <li><a href=""><img src="/images/theme-switcher.png" alt="theme switcher image for changing to dark mode"></a></li>
+        <li><a href=""><img src="/images/search.png" alt="search magnifying glass image for search"></a></li>
+        <li><a href=""><img src="/images/user.png" alt="user image for logging out"></a></li>
+        </ul>
+    </nav>
+</header>
+<div id="project-container">
+   <h2>Add project</h2>
+   <form method="post">
+    <label>Name</label><br>
+    <input type="text" name="name"><br>
+    <label>Category</label><br>
+      <select name="category">
+        <option value="web">Web</option>
+        <option value="mobile">Mobile</option>
+        <option value="design">Design</option>
+     </select><br>
+    <label>Programming language</label><br>
+        <select name="languages">
+            <option value="python">Python</option>
+            <option value="swift">Swift</option>
+            <option value="php">PHP</option>
+            <option value="nim">Nim</option>
+            <option value="c">C</option>
+            <option value="javascript">JavaScript</option>
+            <option value="erlang">Erlang</option>
+            <option value="elixir">Elixir</option>
+            <option value="ruby">Ruby</option>
+            <option value="go">Go</option>
+            <option value="gleam">Gleam</option>
+            <option value="kotlin">Kotlin</option>
+            <option value="rust">Rust</option>
+            <option value="java">Java</option>
+        </select><br>
+        <label>Framework</label><br>
+        <select name="frameworks">
+            <option value="rails">Rails</option>
+            <option value="flask">Flask</option>
+            <option value="sinatra">Sinatra</option>
+            <option value="fastapi">FastAPI</option>
+            <option value="tornado">Tornado</option>
+            <option value="bottle">Bottle</option>
+            <option value="django">Django </option>
+            <option value="vue">Vue</option>
+            <option value="ktor">Ktor</option>
+            <option value="lustre">Lustre</option>
+            <option value="jester">Jester</option>
+            <option value="phoenix">Phoenix</option>
+            <option value="fyne">Fyne</option>
+            <option value="wxpython">wxPython</option>
+            <option value="vapor">Vapor</option>
+            <option value="symfony">Symfony</option>
+            <option value="tokyo">Tokyo</option>
+            <option value="dash">Dash</option>
+            <option value="laravel">Laravel</option>
+            <option value="streamlit">Streamlit</option>
+        </select><br>
+    <label>Priority</label><br>
+     <select name="priority">
+        <option value="high">High</option>
+        <option value="moderate">Moderate</option>
+        <option value="low">Low</option>
+     </select><br>
+    <label>Description</label><br>
+    <textarea name="description"></textarea>
+    <h2>Requirements</h2>
+    <label>Feature</label><br>
+     <input type="text" name="feature"><br>
+    <label>Type</label><br>
+    <input type="text" name="type"><br>
+    <label>Process</label><br>
+    <input type="text" name="process"><br>
+    <label>Description</label><br>
+    <textarea name="requirements-description"></textarea>
+    <input type="button" value="Save project">
+    <input type="button" value="Add another requirement">
+   </form>
+</div>
